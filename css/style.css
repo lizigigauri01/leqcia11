@@ -3,7 +3,7 @@
 .container {
     width: 1150px;
     height: 690px;
-    margin-left: 144px;
+    margin-left: 180px;
     margin-top: 57px;
 }
 
@@ -51,6 +51,9 @@ textarea {
     font-style: normal;
     font-weight: 700;
     background: rgba(212, 211, 211, 0.30);
+    border-style: solid;
+    border-color: #d4d3d4;
+    border-width: 3px;
 }
 
 .monacemi {
@@ -62,7 +65,10 @@ input[type=text], input[type=email] {
     width: 370px;
     height: 59px;
     color: #99999A;
-    background: rgba(212, 211, 211, 0.30);;
+    border-color: #d4d3d4;
+    border-width: 3px;
+    background: rgba(212, 211, 211, 0.30);
+    border-style: solid;
     font-size: 14px;
     font-family: Helvetica;
     font-style: normal;
@@ -75,10 +81,12 @@ input[type=submit] {
     width: 100%;
     height: 59px;
     background: #5968F4;
+    border-color: #5968F4;
     color: #FBFBFF;
     font-size: 14px;
     font-family: Helvetica;
     font-weight: 700;
+    border-style: solid;
 }
 
 .contactinfoebi {
@@ -147,4 +155,105 @@ h5 {
     font-weight: 700;
     margin-bottom: 8px;
     margin-top: 16px;
+}
+
+
+/* SECTION 2 */
+
+.div2 {
+    width: 548px;
+    margin-left: 180px;
+    margin-top: 74px;
+}
+
+.Photos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+
+/* FOOOOOTER */
+
+footer {
+    width: 100%;
+    height: 372px;
+    background: black;
+    margin-top: 39px;
+}
+
+h4 {
+    color: #99999A;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+h3 {
+    color: #FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.leftpart {
+    width: 295px;
+    border: 1px yellow dotted;
+    padding-top: 100px;
+    margin-left: 160px;
+}
+
+.leftpart img {
+    padding-right: 7px;
+}
+
+.links, .privacy {
+    width: 125px;
+    border: 1px yellow dotted;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contactinfo p {
+    color: #FFF;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.contactinfo img {
+    width: 21px;
+    height: 15px;
+    display: inline-block;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    width: 245px;
 }
