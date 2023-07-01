@@ -3,7 +3,6 @@
 .container {
     width: 1150px;
     height: 690px;
-    border: 1px black dotted;
     margin-left: 144px;
     margin-top: 57px;
 }
@@ -112,7 +111,6 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px red dotted;
     width: 100%;
 }
 
@@ -120,7 +118,6 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px red dotted;
     width: 100%;
 }
 
@@ -128,7 +125,6 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px red dotted;
     width: 100%;
 }
 
