@@ -197,14 +197,11 @@ h3 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 23px;
 }
 
 .leftpart {
     width: 295px;
-    border: 1px yellow dotted;
-    padding-top: 100px;
-    margin-left: 160px;
+    margin-right: 191px;
 }
 
 .leftpart img {
@@ -213,12 +210,16 @@ h3 {
 
 .links, .privacy {
     width: 125px;
-    border: 1px yellow dotted;
+    margin-right: 69px;
 }
 
 .footerflex {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 27px;
+    width: 1121px;
+    height: 104px;
 }
 
 h1 {
@@ -235,6 +236,7 @@ h2 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
+    padding-bottom: 9px;
 }
 
 .contactinfo p {
@@ -243,17 +245,50 @@ h2 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    display: inline-block;
+    margin-bottom: 19px;
 }
 
 .contactinfo img {
-    width: 21px;
-    height: 15px;
-    display: inline-block;
+    width: 27px;
+    height: 19px;
+    margin-bottom: 15px;
+}
+
+.part1, .part2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.part1 {
+    width: 32px;
+    margin-right: 14px;
+}
+
+.part2 {
+    width: 213px;
 }
 
 .contactinfo {
     display: flex;
-    flex-direction: column;
-    width: 245px;
+    justify-content: space-between;
+}
+
+.texts {
+    display: flex;
+    height: 30px;
+}
+
+.N1 {
+    padding-right: 84px;
+    padding-left: 325px;
+}
+.N2 {
+    padding-right: 118px;
+}
+
+.wholefooter {
+    padding-top: 75px;
+    width: 100%;
+    height: 200px;
+    margin-left: 160px;
 }

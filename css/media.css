@@ -1,0 +1,6 @@
+@media (max-width: 948px) {
+    .textinputebi {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
