@@ -144,7 +144,7 @@ a {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 h5 {
@@ -153,7 +153,7 @@ h5 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     margin-top: 16px;
 }
 
@@ -178,8 +178,47 @@ h5 {
 footer {
     width: 100%;
     height: 372px;
-    background: black;
+    background: #000;
     margin-top: 39px;
+}
+
+.links h1 {
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.privacy h1 {
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.contactinfo h1 {
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.leftpart h1 {
+    color: #FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 23px;
 }
 
 h4 {
@@ -188,47 +227,10 @@ h4 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
     margin-bottom: 27px;
 }
 
-h3 {
-    color: #FFF;
-    font-size: 26px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.leftpart {
-    width: 295px;
-    margin-right: 191px;
-}
-
-.leftpart img {
-    padding-right: 7px;
-}
-
-.links, .privacy {
-    width: 125px;
-    margin-right: 69px;
-}
-
-.footerflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 27px;
-    width: 1121px;
-    height: 104px;
-}
-
-h1 {
-    color: #FFF;
-    font-size: 21px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 400;
-}
 
 h2 {
     color: #5863E3;
@@ -236,7 +238,8 @@ h2 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    padding-bottom: 9px;
+    line-height: normal;
+    margin-bottom: 9px;
 }
 
 .contactinfo p {
@@ -245,50 +248,55 @@ h2 {
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    margin-bottom: 19px;
+    line-height: normal;
+    margin-left: 10px;
+}
+.contactinfo a {
+    color: #FFF;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 14px;
 }
 
 .contactinfo img {
     width: 27px;
-    height: 19px;
-    margin-bottom: 15px;
+    height: 22px;
+    margin-right: 12px;
 }
 
-.part1, .part2 {
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 63px;
+}
+
+.leftpart {
+    width: 295px;
+}
+
+.links {
+    width: 125px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
-.part1 {
-    width: 32px;
-    margin-right: 14px;
-}
-
-.part2 {
-    width: 213px;
+.privacy {
+    width: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .contactinfo {
+    width: 250px;
+}
+
+.N1, .N2, .N3 {
     display: flex;
-    justify-content: space-between;
-}
-
-.texts {
-    display: flex;
-    height: 30px;
-}
-
-.N1 {
-    padding-right: 84px;
-    padding-left: 325px;
-}
-.N2 {
-    padding-right: 118px;
-}
-
-.wholefooter {
-    padding-top: 75px;
-    width: 100%;
-    height: 200px;
-    margin-left: 160px;
+    margin-bottom: 15px;
 }
