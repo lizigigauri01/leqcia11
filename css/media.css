@@ -105,4 +105,39 @@
         width: 200px;
         height: 150px;
     }
+
+    .footerflex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
+
+ @media (max-width: 650px) {
+    footer {
+        height: 100%;
+    }
+    .footerflex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .leftpart, .links, .privacy, .contactinfo {
+        margin-bottom: 50px;
+    }
+
+    .Photos {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .Photos img {
+        padding-right: 51px;
+        width: 200px;
+        height: 150px;
+    }
+
  }
