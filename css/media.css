@@ -139,5 +139,7 @@
         width: 200px;
         height: 150px;
     }
-
+    .container, .div2 {
+        margin-left: 50px;
+    }
  }
